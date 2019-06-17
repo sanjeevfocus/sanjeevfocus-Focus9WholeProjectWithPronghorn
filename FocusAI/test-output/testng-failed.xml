@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test verbose="2" name="Default test">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.focus.listeners.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Test">
     <classes>
-      <class name="com.focus.testcases.HomeMenuSecurityCreateProfileTest"/>
+      <class name="com.focus.testcases.LoginPageTest"/>
     </classes>
-  </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="com.focus.testcases.HomeMenuSecurityCreateProfileTest">
-        <methods>
-          <include name="verifyProfileNameAsMandatory"/>
-          <include name="beforeMethodExecution"/>
-          <include name="verifyCreateProfilePermissionAsMandatory"/>
-          <include name="verifyCreateProfileHomeMenuSubMenuCompany"/>
-          <include name="intialiseReports"/>
-          <include name="verifyCreateProfilePage"/>
-          <include name="openBrowser"/>
-          <include name="verifyCreateProfileFinancialsMenuSubMenuCompany"/>
-          <include name="afterMethodExecution"/>
-          <include name="verifyCreateProfileScreenAvailbilityObjects"/>
-        </methods>
-      </class> <!-- com.focus.testcases.HomeMenuSecurityCreateProfileTest -->
-    </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->
