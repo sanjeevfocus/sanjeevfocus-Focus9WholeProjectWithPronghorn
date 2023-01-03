@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
-              <span class="suite-name border-failed">Command line suite</span>
+              <span class="suite-name border-skipped">Command line suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Command_line_suite">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,26 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods, 2 failed,  5 skipped,  </span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
-                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Command_line_suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.focus.testcases.LoginPageTest" hash-for-method="enterUrl">enterUrl</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.focus.testcases.LoginPageTest" hash-for-method="verifyTheAvaibilityOfFieldsInLoginScreen">verifyTheAvaibilityOfFieldsInLoginScreen</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                    <span class="method-stats">7 methods,  7 skipped,  </span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -119,6 +100,11 @@
                       <a href="#" panel-name="suite-Command_line_suite" class="show-methods skipped suite-Command_line_suite"> (show)</a> <!-- show-methods skipped suite-Command_line_suite -->
                     </span>
                     <div class="method-list-content skipped suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.focus.testcases.LoginPageTest" hash-for-method="enterUrl">enterUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.focus.testcases.HomeMenuSecurityCreateProfileTest" hash-for-method="verifyCreateProfilePage">verifyCreateProfilePage</a> <!-- method navigator-link -->
@@ -141,6 +127,11 @@
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.focus.testcases.LoginPageTest" hash-for-method="verifyTheAvaibilityOfFieldsInLoginScreen">verifyTheAvaibilityOfFieldsInLoginScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.focus.testcases.CreateCompanyLoginTest" hash-for-method="verifyValidLoginTest">verifyValidLoginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -156,45 +147,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
-          <div class="suite-Command_line_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.focus.testcases.LoginPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="enterUrl">
-                  </a> <!-- enterUrl -->
-                  <span class="method-name">enterUrl</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Focus] but found [Unable to make the session state request to the session state server. Please ensure that the ASP.NET State service is started and that the client and server ports are the same.  If the server is on a remote machine, please ensure that it accepts remote requests by checking the value of HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\aspnet_state\Parameters\AllowRemoteConnection.  If the server is on the local machine, and if the before mentioned registry value does not exist or is set to 0, then the state server connection string must use either &apos;localhost&apos; or &apos;127.0.0.1&apos; as the server name.]
-	at com.focus.testcases.LoginPageTest.enterUrl(LoginPageTest.java:41)
-... Removed 40 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyTheAvaibilityOfFieldsInLoginScreen">
-                  </a> <!-- verifyTheAvaibilityOfFieldsInLoginScreen -->
-                  <span class="method-name">verifyTheAvaibilityOfFieldsInLoginScreen</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy13.toString(Unknown Source)
-	at java.lang.String.valueOf(String.java:2994)
-	at java.lang.StringBuilder.append(StringBuilder.java:131)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:306)
-	at java.lang.String.valueOf(String.java:2994)
-	at java.lang.StringBuilder.append(StringBuilder.java:131)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:267)
-	at com.focus.Pages.LoginPage.verifyAvailablityOfFields(LoginPage.java:126)
-	at com.focus.testcases.LoginPageTest.verifyTheAvaibilityOfFieldsInLoginScreen(LoginPageTest.java:51)
-... Removed 38 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-failed -->
           <div class="suite-Command_line_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
@@ -246,6 +198,28 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.focus.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterUrl">
+                  </a> <!-- enterUrl -->
+                  <span class="method-name">enterUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheAvaibilityOfFieldsInLoginScreen">
+                  </a> <!-- verifyTheAvaibilityOfFieldsInLoginScreen -->
+                  <span class="method-name">verifyTheAvaibilityOfFieldsInLoginScreen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
         </div> <!-- panel Command_line_suite -->
         <div panel-name="test-xml-Command_line_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -263,8 +237,33 @@
       &lt;class name=&quot;com.focus.testcases.HomeMenuSecurityNetworkPolicyTest&quot;/&gt;
       &lt;class name=&quot;com.focus.testcases.HomeMenuSecurityPasswordPolicyTest&quot;/&gt;
       &lt;class name=&quot;com.focus.testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.focus.testcases.LTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Command line test --&gt;
+  &lt;test name=&quot;Command line test(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.focus.testcases.HomeMenuSecurityCreateProfileTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifySavedProfile&quot;/&gt;
+          &lt;include name=&quot;verifyCreateProfilePage&quot;/&gt;
+          &lt;include name=&quot;verifyOpenCompany&quot;/&gt;
+          &lt;include name=&quot;verifyOpenCompanyMenuRestrcition&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.focus.testcases.HomeMenuSecurityCreateProfileTest --&gt;
+      &lt;class name=&quot;com.focus.testcases.CreateCompanyLoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyValidLoginTest&quot;/&gt;
+          &lt;include name=&quot;openBrowser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.focus.testcases.CreateCompanyLoginTest --&gt;
+      &lt;class name=&quot;com.focus.testcases.LoginPageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;enterUrl&quot;/&gt;
+          &lt;include name=&quot;verifyTheAvaibilityOfFieldsInLoginScreen&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.focus.testcases.LoginPageTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test(failed) --&gt;
 &lt;/suite&gt; &lt;!-- Command line suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -276,7 +275,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Command line test (6 classes)</span>
+                <span class="test-name">Command line test (7 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Command line test(failed) (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -306,36 +308,36 @@ data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'enterUrl')
 data.setCell(0, 2, 'com.focus.testcases.LoginPageTest')
-data.setCell(0, 3, 75938);
+data.setCell(0, 3, 0);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyTheAvaibilityOfFieldsInLoginScreen')
-data.setCell(1, 2, 'com.focus.testcases.LoginPageTest')
-data.setCell(1, 3, 56520);
+data.setCell(1, 1, 'verifyValidLoginTest')
+data.setCell(1, 2, 'com.focus.testcases.CreateCompanyLoginTest')
+data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyValidLoginTest')
-data.setCell(2, 2, 'com.focus.testcases.CreateCompanyLoginTest')
-data.setCell(2, 3, 3);
+data.setCell(2, 1, 'verifySavedProfile')
+data.setCell(2, 2, 'com.focus.testcases.HomeMenuSecurityCreateProfileTest')
+data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyOpenCompanyMenuRestrcition')
+data.setCell(3, 1, 'verifyCreateProfilePage')
 data.setCell(3, 2, 'com.focus.testcases.HomeMenuSecurityCreateProfileTest')
-data.setCell(3, 3, 1);
+data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyCreateProfilePage')
+data.setCell(4, 1, 'verifyOpenCompanyMenuRestrcition')
 data.setCell(4, 2, 'com.focus.testcases.HomeMenuSecurityCreateProfileTest')
-data.setCell(4, 3, 1);
+data.setCell(4, 3, 0);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifySavedProfile')
+data.setCell(5, 1, 'verifyOpenCompany')
 data.setCell(5, 2, 'com.focus.testcases.HomeMenuSecurityCreateProfileTest')
 data.setCell(5, 3, 0);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyOpenCompany')
-data.setCell(6, 2, 'com.focus.testcases.HomeMenuSecurityCreateProfileTest')
+data.setCell(6, 1, 'verifyTheAvaibilityOfFieldsInLoginScreen')
+data.setCell(6, 2, 'com.focus.testcases.LoginPageTest')
 data.setCell(6, 3, 0);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 0 ms</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -346,24 +348,6 @@ return data;
             <span class="header-content">Reporter output for Command line suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">enterUrl</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Completed executing following method : LoginPageTest.enterUrl</span>
-                <span class="reporter-method-output">Test Method resides in com.focus.testcases.LoginPageTest</span>
-                <span class="reporter-method-output">Test Status: Failed</span>
-                <span class="reporter-method-output">About to begin executing following method : BaseEngine.afterMethodExecution</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyTheAvaibilityOfFieldsInLoginScreen</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Completed executing following method : LoginPageTest.verifyTheAvaibilityOfFieldsInLoginScreen</span>
-                <span class="reporter-method-output">Test Method resides in com.focus.testcases.LoginPageTest</span>
-                <span class="reporter-method-output">Test Status: Failed</span>
-                <span class="reporter-method-output">About to begin executing following method : BaseEngine.afterMethodExecution</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Command_line_suite" class="panel">
@@ -446,71 +430,47 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.focus.testcases.CreateCompanyLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">openBrowser(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
-              <div class="configuration-test before">
-                <span class="method-name">intialiseReports</span>
-                <span class="method-start">6796 ms</span>
-              </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.focus.testcases.LoginPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethodExecution(public void com.focus.testcases.LoginPageTest.enterUrl() throws org.apache.poi.EncryptedDocumentExce...)</span>
-                <span class="method-start">7595 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">enterUrl</span>
-                <span class="method-start">7597 ms</span>
+                <span class="method-start">2505 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethodExecution([TestResult name=enterUrl status=FAILURE method=LoginPageTest.enterUrl()[pri:1, instance:com.focus.t...)</span>
-                <span class="method-start">83538 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethodExecution(public void com.focus.testcases.LoginPageTest.verifyTheAvaibilityOfFieldsInLoginScreen() throws java...)</span>
-                <span class="method-start">84026 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">verifyTheAvaibilityOfFieldsInLoginScreen</span>
-                <span class="method-start">84026 ms</span>
+                <span class="method-start">2505 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">afterMethodExecution([TestResult name=verifyTheAvaibilityOfFieldsInLoginScreen status=FAILURE method=LoginPageTest.verify...)</span>
-                <span class="method-start">140549 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.focus.testcases.CreateCompanyLoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyValidLoginTest</span>
-                <span class="method-start">144593 ms</span>
+                <span class="method-start">2505 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.focus.testcases.HomeMenuSecurityCreateProfileTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyCreateProfilePage</span>
-                <span class="method-start">144598 ms</span>
+                <span class="method-start">2505 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifySavedProfile</span>
-                <span class="method-start">144601 ms</span>
+                <span class="method-start">2505 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyOpenCompany</span>
-                <span class="method-start">144604 ms</span>
+                <span class="method-start">2505 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyOpenCompanyMenuRestrcition</span>
-                <span class="method-start">144606 ms</span>
+                <span class="method-start">2505 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

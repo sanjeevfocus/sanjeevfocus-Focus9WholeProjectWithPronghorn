@@ -28,7 +28,6 @@ import com.focus.utilities.POJOUtility;
 
 public class LoginPage extends BaseEngine 
 {
-	
 	private static WebElement loginTitle;
 	
 	@FindBy(xpath="//*[@id='txtUsername']")

@@ -9,6 +9,7 @@
       <class name="com.focus.testcases.HomeMenuSecurityNetworkPolicyTest"/>
       <class name="com.focus.testcases.HomeMenuSecurityPasswordPolicyTest"/>
       <class name="com.focus.testcases.LoginPageTest"/>
+      <class name="com.focus.testcases.LTest"/>
     </classes>
   </test> <!-- Command line test -->
   <test name="Command line test(failed)">
@@ -24,15 +25,12 @@
       <class name="com.focus.testcases.CreateCompanyLoginTest">
         <methods>
           <include name="verifyValidLoginTest"/>
-          <include name="intialiseReports"/>
           <include name="openBrowser"/>
         </methods>
       </class> <!-- com.focus.testcases.CreateCompanyLoginTest -->
       <class name="com.focus.testcases.LoginPageTest">
         <methods>
-          <include name="beforeMethodExecution"/>
           <include name="enterUrl"/>
-          <include name="afterMethodExecution"/>
           <include name="verifyTheAvaibilityOfFieldsInLoginScreen"/>
         </methods>
       </class> <!-- com.focus.testcases.LoginPageTest -->

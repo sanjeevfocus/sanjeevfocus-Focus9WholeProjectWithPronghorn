@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.focus.testcases.DesignWorkFlowOptionsTest"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.focus.testcases.DesignWorkFlowOptionsTest">
+        <methods>
+          <include name="checkCloseLinkOptionOnPartialRowSelectionInPurchaseOrderHavingOneLinkDocument"/>
+          <include name="checkLinkIsOptionalIfTheDocumentIsLinkedToOtherBaseDocumentOption"/>
+          <include name="checkDoNotClubWithCommonBaseOption"/>
+          <include name="checkBackup"/>
+          <include name="checkListingOfDocumentsByDueDateReport"/>
+          <include name="checkRaiseLinkDocumentWhenBaseIsSaved"/>
+          <include name="checkCD"/>
+          <include name="checkPendingVoucherReport"/>
+          <include name="checkSelectingItemOptionBetweenPurchaseOrderAndPvn"/>
+          <include name="checkRaiseLinkDocumentWhenBaseIsSavedOption"/>
+          <include name="checkCloseLinkAndPartialOptionInPurchaseOrderHavingOneLinkDocument"/>
+          <include name="checkSavingPurchaseOrderVoucherForCloseLinkAndEditingLinkOptionAndSlabChangeVoucherSave"/>
+          <include name="checkSavingShortageInStocksVoucher1"/>
+          <include name="intialiseReports"/>
+          <include name="checkCloseLinkOptionOnPartialRowSelectionInPurchaseOrderHavingTwoLinkDocuments"/>
+          <include name="checkDeletingPurchaseFlowAndSavingNewFlowWithOneBaseAndOneLinkDocument"/>
+          <include name="checkLinkIsMandatoryOption"/>
+          <include name="checkListingOfDocumentsReport"/>
+          <include name="checkEraseAllTransactionsAfterIntialCheck"/>
+          <include name="checkSavingPurchaseOrderAndPurchaseVoucherNPartialConsumeCloseLink"/>
+          <include name="CheckLinkValueDropDownOptions"/>
+          <include name="checkUpdatingMapFieldsInBetweenPurchaseOrdersAndPvn"/>
+          <include name="checkPendingPurchaseOrdersPurchaseVoucherNHomePage"/>
+          <include name="checkSavingOpeningStockVoucher1WithBatchItem"/>
+          <include name="checkRecheckBeforeTheSavingIfLinkIsConsumedElseWhereOnTheNetWorkOption"/>
+          <include name="checkAgeingOfPendingDocumentsReport"/>
+          <include name="checkSavingPurchaseVoucherWithCovertOptionWithAllMandatoryFields"/>
+          <include name="checkAutoCLoseInDaysOption"/>
+          <include name="CheckSavingAndDeleteAllTransactions"/>
+          <include name="checkCustomizeOptionAndHideThisColumnInControlPlusL"/>
+          <include name="checkLoadPendingDocumentsAndBasedOnFieldOption"/>
+          <include name="checkPendingLinksThroughConvertOptionAfterMapFieldsUpdating"/>
+          <include name="checkLoadTheBaseDocumentDetailsAtTheTimeOfLinkingOption"/>
+          <include name="checkAgeingOfPendingDocumentsByDueDateReport"/>
+          <include name="checkCloseLinkAndPartialOptionInPurchaseOrderHavingTwoLinkDocuments"/>
+          <include name="checkCustomizeOptionAndAddingExtraFieldsInLineWise"/>
+          <include name="checkLoadPendingDocumentsAndBasedOnFieldOptionWithExtraField"/>
+          <include name="checkCustomizeOptionAndAddingExtraFieldsInControlPlusL"/>
+          <include name="checkUseThisLinkOnlyForLoadingOption"/>
+          <include name="checkCustomizeOptionAndHideThisColumnInLineWise"/>
+          <include name="checkExcessesInStocksVoucherBatchNosByWorkFlow"/>
+          <include name="checkSelectingQuantityinLinkValueOptionBetweenPurchaseOrderAndPvn"/>
+          <include name="checkMapOptionAndMappedFields"/>
+          <include name="checkExcessesInStocksVoucherBatchNosByConvertingPendingShortageInStocks"/>
+          <include name="checkBaseDocumentCannotBeEditiedAfterItIsLinkedOption"/>
+          <include name="checkPendingLinksThroughConvertOptionWithSelectingRow"/>
+          <include name="checkRestoringForLinks"/>
+          <include name="checkCannotExceedTheBaseValueOption"/>
+          <include name="beforeMethodExecution"/>
+          <include name="checkInputingWorkflowNameAsPurchasesFlow"/>
+          <include name="checkSavingPurchaseOrdersAfterUpdatingMapFields"/>
+          <include name="CheckToleranceValueAndUseItemWiseToleranceWhenAvailableOption"/>
+          <include name="checkConsolidateOnDocumentWhenDisplayingInSelection"/>
+          <include name="checkLinkChainAnalysisReport"/>
+          <include name="checkRestoringForTransactionsForOrderManagement"/>
+          <include name="checkSavingPurchaseOrders"/>
+          <include name="checkLinkBetweenPurchaseOrderAndPVN"/>
+          <include name="checkSavingPurchaseOrderAndPurchaseVoucherNRowWisePartialConsumeCloseLink"/>
+          <include name="openBrowser"/>
+          <include name="checkAllowBackDatedLinkingOption"/>
+          <include name="checkAuthorizingPurchaseVoucher"/>
+          <include name="checkLogout"/>
+          <include name="checkEraseAllTransactionsAfterExcessesInStocks"/>
+          <include name="afterMethodExecution"/>
+          <include name="checkCheckStockWhileLinkingOption"/>
+          <include name="checkCloseLinkAfterDueDateElapses"/>
+          <include name="checkDoNotAllowSelectionIfLinksFieldsAreNotSelectedOption"/>
+        </methods>
+      </class> <!-- com.focus.testcases.DesignWorkFlowOptionsTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

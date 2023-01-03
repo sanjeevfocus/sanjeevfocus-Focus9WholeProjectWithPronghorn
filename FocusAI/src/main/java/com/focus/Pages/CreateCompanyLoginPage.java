@@ -562,7 +562,6 @@ public class CreateCompanyLoginPage extends BaseEngine
 	}
 	
 	
-	
 	public void checkArabicLanguage()
 	{
 		languagesArabic.click();

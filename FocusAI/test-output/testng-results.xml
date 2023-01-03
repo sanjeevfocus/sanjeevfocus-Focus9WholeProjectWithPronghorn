@@ -101,12 +101,12 @@
       <![CDATA[Completed executing following method : BaseEngine.closeBrowser]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="14692" started-at="2019-06-17T10:08:11Z" finished-at="2019-06-17T10:08:25Z">
+  <suite name="Suite" duration-ms="29712" started-at="2019-08-02T14:19:39Z" finished-at="2019-08-02T14:20:09Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14692" started-at="2019-06-17T10:08:11Z" finished-at="2019-06-17T10:08:25Z">
+    <test name="Test" duration-ms="29712" started-at="2019-08-02T14:19:39Z" finished-at="2019-08-02T14:20:09Z">
       <class name="com.focus.testcases.LoginPageTest">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.focus.testcases.LoginPageTest@6b09bb57]" name="openBrowser" is-config="true" duration-ms="9646" started-at="2019-06-17T15:38:01Z" finished-at="2019-06-17T15:38:11Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.focus.testcases.LoginPageTest@6b09bb57]" name="openBrowser" is-config="true" duration-ms="3745" started-at="2019-08-02T19:49:35Z" finished-at="2019-08-02T19:49:39Z">
           <params>
             <param index="0">
               <value>
@@ -120,28 +120,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="intialiseReports()[pri:0, instance:com.focus.testcases.LoginPageTest@6b09bb57]" name="intialiseReports" is-config="true" duration-ms="195" started-at="2019-06-17T15:38:11Z" finished-at="2019-06-17T15:38:11Z">
+        <test-method status="PASS" signature="intialiseReports()[pri:0, instance:com.focus.testcases.LoginPageTest@6b09bb57]" name="intialiseReports" is-config="true" duration-ms="156" started-at="2019-08-02T19:49:39Z" finished-at="2019-08-02T19:49:39Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseEngine.intialiseReports]]>
             </line>
           </reporter-output>
         </test-method> <!-- intialiseReports -->
-        <test-method status="PASS" signature="beforeMethodExecution(java.lang.reflect.Method)[pri:0, instance:com.focus.testcases.LoginPageTest@6b09bb57]" name="beforeMethodExecution" is-config="true" duration-ms="2" started-at="2019-06-17T15:38:11Z" finished-at="2019-06-17T15:38:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.focus.testcases.LoginPageTest.enterUrl() throws org.apache.poi.EncryptedDocumentException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.io.IOException,java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : BaseEngine.beforeMethodExecution]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeMethodExecution -->
-        <test-method status="PASS" signature="enterUrl()[pri:1, instance:com.focus.testcases.LoginPageTest@6b09bb57]" name="enterUrl" duration-ms="13813" started-at="2019-06-17T15:38:11Z" finished-at="2019-06-17T15:38:25Z">
+        <test-method status="PASS" signature="enterUrl()[pri:1, instance:com.focus.testcases.LoginPageTest@6b09bb57]" name="enterUrl" duration-ms="28599" started-at="2019-08-02T19:49:39Z" finished-at="2019-08-02T19:50:08Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : LoginPageTest.enterUrl]]>
@@ -163,7 +149,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- enterUrl -->
-        <test-method status="PASS" signature="afterMethodExecution(org.testng.ITestResult)[pri:0, instance:com.focus.testcases.LoginPageTest@6b09bb57]" name="afterMethodExecution" is-config="true" duration-ms="2" started-at="2019-06-17T15:38:25Z" finished-at="2019-06-17T15:38:25Z">
+        <test-method status="PASS" signature="beforeMethodExecution(java.lang.reflect.Method)[pri:0, instance:com.focus.testcases.LoginPageTest@6b09bb57]" name="beforeMethodExecution" is-config="true" duration-ms="0" started-at="2019-08-02T19:49:39Z" finished-at="2019-08-02T19:49:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.focus.testcases.LoginPageTest.enterUrl() throws org.apache.poi.EncryptedDocumentException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseEngine.beforeMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethodExecution -->
+        <test-method status="PASS" signature="afterMethodExecution(org.testng.ITestResult)[pri:0, instance:com.focus.testcases.LoginPageTest@6b09bb57]" name="afterMethodExecution" is-config="true" duration-ms="0" started-at="2019-08-02T19:50:08Z" finished-at="2019-08-02T19:50:08Z">
           <params>
             <param index="0">
               <value>
@@ -177,7 +177,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- afterMethodExecution -->
-        <test-method status="PASS" signature="beforeMethodExecution(java.lang.reflect.Method)[pri:0, instance:com.focus.testcases.LoginPageTest@6b09bb57]" name="beforeMethodExecution" is-config="true" duration-ms="1" started-at="2019-06-17T15:38:25Z" finished-at="2019-06-17T15:38:25Z">
+        <test-method status="PASS" signature="beforeMethodExecution(java.lang.reflect.Method)[pri:0, instance:com.focus.testcases.LoginPageTest@6b09bb57]" name="beforeMethodExecution" is-config="true" duration-ms="0" started-at="2019-08-02T19:50:08Z" finished-at="2019-08-02T19:50:08Z">
           <params>
             <param index="0">
               <value>
@@ -191,7 +191,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethodExecution -->
-        <test-method status="PASS" signature="verifyTheAvaibilityOfFieldsInLoginScreen()[pri:2, instance:com.focus.testcases.LoginPageTest@6b09bb57]" name="verifyTheAvaibilityOfFieldsInLoginScreen" duration-ms="434" started-at="2019-06-17T15:38:25Z" finished-at="2019-06-17T15:38:25Z">
+        <test-method status="PASS" signature="verifyTheAvaibilityOfFieldsInLoginScreen()[pri:2, instance:com.focus.testcases.LoginPageTest@6b09bb57]" name="verifyTheAvaibilityOfFieldsInLoginScreen" duration-ms="703" started-at="2019-08-02T19:50:08Z" finished-at="2019-08-02T19:50:09Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : LoginPageTest.verifyTheAvaibilityOfFieldsInLoginScreen]]>
@@ -213,7 +213,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyTheAvaibilityOfFieldsInLoginScreen -->
-        <test-method status="PASS" signature="afterMethodExecution(org.testng.ITestResult)[pri:0, instance:com.focus.testcases.LoginPageTest@6b09bb57]" name="afterMethodExecution" is-config="true" duration-ms="1" started-at="2019-06-17T15:38:25Z" finished-at="2019-06-17T15:38:25Z">
+        <test-method status="PASS" signature="afterMethodExecution(org.testng.ITestResult)[pri:0, instance:com.focus.testcases.LoginPageTest@6b09bb57]" name="afterMethodExecution" is-config="true" duration-ms="0" started-at="2019-08-02T19:50:09Z" finished-at="2019-08-02T19:50:09Z">
           <params>
             <param index="0">
               <value>
@@ -227,14 +227,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- afterMethodExecution -->
-        <test-method status="PASS" signature="generateReports()[pri:0, instance:com.focus.testcases.LoginPageTest@6b09bb57]" name="generateReports" is-config="true" duration-ms="222" started-at="2019-06-17T15:38:25Z" finished-at="2019-06-17T15:38:25Z">
+        <test-method status="PASS" signature="generateReports()[pri:0, instance:com.focus.testcases.LoginPageTest@6b09bb57]" name="generateReports" is-config="true" duration-ms="235" started-at="2019-08-02T19:50:09Z" finished-at="2019-08-02T19:50:09Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseEngine.generateReports]]>
             </line>
           </reporter-output>
         </test-method> <!-- generateReports -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.focus.testcases.LoginPageTest@6b09bb57]" name="closeBrowser" is-config="true" duration-ms="77" started-at="2019-06-17T15:38:25Z" finished-at="2019-06-17T15:38:26Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.focus.testcases.LoginPageTest@6b09bb57]" name="closeBrowser" is-config="true" duration-ms="2372" started-at="2019-08-02T19:50:09Z" finished-at="2019-08-02T19:50:11Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseEngine.closeBrowser]]>
